@@ -27,6 +27,8 @@ var staticPath = path.join(__dirname, "/css");
 app.use(express.static(staticPath));
 var bootstrapPath = path.join(__dirname, "/node_modules/bootstrap/dist");
 app.use('/dist',express.static(bootstrapPath));
+var bootstrapPath = path.join(__dirname, "/node_modules/jquery/dist");
+app.use('/jquery',express.static(bootstrapPath));
 
 var publicPath = path.resolve(__dirname, "img");
 app.use("/img", express.static(publicPath));
