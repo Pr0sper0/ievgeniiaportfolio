@@ -17,7 +17,7 @@ img {
 }
 
 #cover{
-  background: url('../img/P61010-163042.jpg') center center no-repeat ;
+  background: url('../img/P61010-163042_opt.jpg') center center no-repeat ;
   background-size: cover;
   height: 100%;
 }
@@ -60,7 +60,8 @@ th{
   /*color: rgb(205, 63, 215);
   */
   width: 50%;
-  background: rgba(75, 101, 255, 0.85);
+  /*background: rgba(175, 201, 255, 1);*/
+  background: rgba(225,225,255,0.3);
 }
 
 .navbar{
@@ -77,13 +78,14 @@ th{
 }
 
 .table{
-  background: rgb(255,222,225);
+  background: rgba(5,5,19,0.7);
   box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.5); 
+  color: white;
 }
 
 .table tr:hover{
   cursor: pointer;
-  background-color: rgb(255,239,219);
+  /*background-color: rgb(255,239,219);*/
   box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.5); 
   border: 1px solid;
   border-color: rgb(210,210,255);
@@ -91,7 +93,7 @@ th{
 
 .table tr:hover th{
   font-size: 1.6rem;
-  background: rgba(75, 101, 255, 0.8);
+  /*background: rgba(175, 201, 255, 0.8);*/
 }
 
 .info-content{
@@ -103,14 +105,25 @@ th{
     font-weight: 200;
 }
 
+.media .content-photo{
+  padding: 1rem;
+  height: 250px; 
+}
+
+.serv-body{
+  align: relative;
+}
+
 #services{
-  background: rgb(255,242,248);
+  /*background: rgba(5,5,19,0.1);*/
+  background: url('../img/image-0-02-01-aa687a7dcb.jpg') center center no-repeat;
   background-size: cover;
+  min-height: 100%;
 }
 
 #contact{
   width: 100%;
-
+  padding: 0.5rem;
 }
 
 .notificationText p:hover{

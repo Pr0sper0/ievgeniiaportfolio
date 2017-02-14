@@ -45,6 +45,10 @@ app.get("/", function(request, response){
 	response.render("index");
 });
 
+app.get('/content/service', function(request, response){
+	response.render('service');
+});
+
 app.use(function(err, req, res, next){
 	console.error(err);
 	next(err);
