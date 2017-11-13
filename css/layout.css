@@ -17,7 +17,7 @@ img {
 }
 
 #cover{
-  background: url('../img/P61010-163042.jpg') center center no-repeat ;
+  background: url('../img/P61010-163042_opt.jpg') center center no-repeat ;
   background-size: cover;
   height: 100%;
 }
@@ -69,11 +69,14 @@ th{
   font-size: 1.1em;
 }
 
+
+
 .nav li{
   padding-right: 2rem;
 }
 
 .section-content{
+  margin: 1rem;
   padding: 4rem 0;
 }
 
@@ -110,20 +113,31 @@ th{
   height: 250px; 
 }
 
+.serv {
+
+}
+
 .serv-body{
   align: relative;
 }
 
 #services{
   /*background: rgba(5,5,19,0.1);*/
-  background: url('../img/image-0-02-01-aa687a7dcb.jpg') center center no-repeat;
+  background: url('../img/massage3.jpg') center center no-repeat;
   background-size: cover;
-  min-height: 100%;
+  min-height: 90%;
 }
 
 #contact{
   width: 100%;
   padding: 0.5rem;
+}
+
+#footer{
+    padding: 2.2rem;
+    color: white;
+    min-height:50px;
+    background: #433;
 }
 
 .notificationText p:hover{
@@ -176,6 +190,7 @@ th{
 @media (min-width: 1200px) {
     .container{
         min-width: 80%;
+        text-align: justify;
     }
 }
 
